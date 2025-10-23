@@ -113,6 +113,7 @@ def main(page: ft.Page):
         marca_field.value = ""
         modello_field.value = ""
         anno_field.value = ""
+        counterBtn.value = 0
 
         stato = "✅" if auto.disponibile else "⛔"
 
